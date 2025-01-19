@@ -1,0 +1,21 @@
+
+    @media (max-width: 768px) {
+      div.d-flex {
+        flex-direction: column !important; 
+        align-items: center;
+        text-align: center;
+      }
+
+      div.d-flex .fas, div.d-flex .fab {
+        font-size: 16px; 
+      }
+
+      div.d-flex span {
+        font-size: 14px;
+      }
+
+      div.d-flex > span {
+        display: none; 
+      }
+    }
+  

@@ -1,0 +1,82 @@
+/* App.css */
+.screen-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #FFA229, #1C4670);
+    color: white;
+    height: 40vh;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .email-input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    flex: 1;
+    width: 365px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: darkorange;
+  }
+  
+  .features {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .features span {
+    font-size: 14px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    .input-container {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .email-input {
+      width: 100%;
+    }
+  
+    .submit-button {
+      width: 100%;
+    }
+  }
+  
